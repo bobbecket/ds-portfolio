@@ -93,3 +93,16 @@ img {border: 2px #c5c5c5 solid; margin: 0 auto;}
  /* .navbar .links li {text-align: right; margin: 0 auto; display: block; padding: 5px; border: 1px solid white;}*/
   .padding {padding-top: 20px;}
 }
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
